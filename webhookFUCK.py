@@ -16,7 +16,7 @@ def find_discord_webhooks(folder_path):
 
     return u
 
-folder = "./141.98.19.51"
+folder = "" #folder name here
 
 webhook = find_discord_webhooks(folder)
 c = [url.rstrip('"') for url in webhook]
